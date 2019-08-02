@@ -10,7 +10,7 @@ The One Line A Day application was built from the ground up by a team of aspirin
 [Oyekunle Oloyede](https://github.com/Oyekunle-Mark) - Backend  
 [Jaytee Padilla](https://github.com/jaytee-padilla) - Frontend Architect  
 [Tania Keller](https://github.com/taniamichelle) - Frontend Developer  
-[Julie Thrall](https://github.com/juliethrallstewart) Stewart - Frontend Developer  
+[Julie Thrall Stewart](https://github.com/juliethrallstewart) - Frontend Developer  
 [Matt Thatcher](https://github.com/mmthatch12) - Frontend Developer  
 [Hector Valdez](https://github.com/Haloking1212) - UI Developer (Website)  
 [Nick Truson](https://github.com/NicholasTruson) - UI Developer (Website)
