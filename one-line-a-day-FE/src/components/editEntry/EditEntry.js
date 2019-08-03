@@ -16,7 +16,10 @@ export const PostStyle = styled.div`
 const EditEntry = (props) => {
 	const { id, text, title, user_id } = props.location.state.post.post;
 
-	const [entry, setEntry] = useState({
+	const [
+		entry,
+		setEntry
+	] = useState({
 		id      : id,
 		title   : title,
 		text    : text,
@@ -27,14 +30,15 @@ const EditEntry = (props) => {
 		setEntry({ ...entry, [event.target.name]: event.target.value });
 	};
 
-	const deleteEntry = event => {
-		axiosWithAuth().delete(`https://one-line-daily.herokuapp.com/api/entries/${id}`)
-		.then(response => {
-			console.log(response);
-			props.history.push("/home");
-		})
-		.catch(error => console.log(error))
-	}
+	const deleteEntry = (event) => {
+		axiosWithAuth()
+			.delete(`https://one-line-daily.herokuapp.com/api/entries/${id}`)
+			.then((response) => {
+				console.log(response);
+				props.history.push('/home');
+			})
+			.catch((error) => console.log(error));
+	};
 
 	return (
 		<div>
