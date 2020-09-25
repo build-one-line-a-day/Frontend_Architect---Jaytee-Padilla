@@ -22,7 +22,6 @@ export default function SignUp(props) {
 
 		axios.post("https://one-line-daily.herokuapp.com/api/auth/register", userCredentials)
 			.then(response => {
-				console.log(response);
 				setIncorrectCreds({isIncorrect: false});
 
 				props.history.push("/");
